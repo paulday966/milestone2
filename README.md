@@ -125,6 +125,13 @@ I used Font Awesome to use an icon for the favicon and other places in the proje
 
 [Font Awesome](https://fontawesome.com/)
 
+### BeautifyTools
+
+Used to check HTML indentation is correct
+
+[BeautifyTools](http://beautifytools.com/html-beautifier.php)
+
+
 ## Testing
 
 If there is a look of testing can use a seperate file called testing.md
