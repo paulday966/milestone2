@@ -10,8 +10,8 @@ function initMap() {
 let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 let locations = [
-    { lat: 51.330003, lng: -0.420852 },
-    { lat: 51.234246, lng: -0.572456 }
+    { lat: 51.330003, lng: -0.420852 }, /* Location A Painshill Park */
+    { lat: 51.234246, lng: -0.572456 } /* Location B Guildford Castle */
 ];
 
 let markers = locations.map(function(location, i) {
