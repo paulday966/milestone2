@@ -2,3 +2,9 @@
     min-height: 600px;
     max-width: 600px;
 }
+
+#place-info {
+    min-height: 600px;
+    max-width: 600px;
+    border: 1px solid black;
+}
