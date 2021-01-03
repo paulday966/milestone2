@@ -13,15 +13,22 @@ placestoexplore = {
     placetoexplore2: {name: "Newlands Corner", location: "Guildford"},
 };
 
-for (let place in hotels) {
-    console.log(`${hotels[place].name}`);
+function showHotels() {
+    for (let place in hotels) {
+    (`${hotels[place].name}`)
 }
+};
 
 for (let place in placesofinterest) {
     console.log(`${placesofinterest[place].name}`);
 }
 
 for (let place in placestoexplore) {
-    console.log(`${placestoexplore[place].name}`);
-}
+    console.log(`${placestoexplore[place].name}`)
+};
 
+$(document).ready(function() {
+    $("#hotels").click(function() {
+        showHotels();
+    });
+});
