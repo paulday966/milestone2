@@ -18,6 +18,7 @@ let locations = [
     { lat: 51.232865, lng: -0.507144 } /* Location F Newlands Corner */
 ];
 
+
 let markers = locations.map(function(location, i) {
     return new google.maps.Marker({
         position: location,
